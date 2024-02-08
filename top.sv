@@ -7,7 +7,7 @@ module top(input logic clk, reset,
 	risc r1(clk, reset, pc, instr, memwrite, dataadr,
 			  writedata, readdata);
 	
-	imem i1(pc[7:2], isntr);
+	imem i1(pc[7:2], instr);
 	
 	dmem d1(clk, memwrite, dataadr, writedata, readdata);
 
