@@ -1,2 +1,2 @@
 # RVXcellerate
-complete RTL to GDS riscv core implementation
+single cycle risc-v core implementation
